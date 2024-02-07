@@ -6,61 +6,85 @@ const Sitemap = () => {
       <Container maxWidth="xl">
         <ul>
           <li>
-            <a href="">RoofingSeries</a>
+            <a href="/">RoofingSeries</a>
             <ul>
               <li>
-                <a href="">Products</a>
+                <a href="/products">Products</a>
                 <ul>
                   <li>
-                    <a href="">PVC Membranes</a>
+                    <a href="/products/pvc-membranes">PVC Membranes</a>
                   </li>
                   <ul>
                     <li>
-                      <a href="">RoofingSeries PVC Membranes</a>
+                      <a href="/products/pvc-membranes/membranes/">
+                        RoofingSeries PVC Membranes
+                      </a>
                       <ul>
                         <li>
-                          <a href="">R12000 / R15000 / R20000</a>
+                          <a href="/products/pvc-membranes/membranes/dectec-r12000">
+                            R12000 / R15000 / R20000
+                          </a>
                         </li>
                         <li>
-                          <a href="">Fully Walkable R15000</a>
+                          <a href="/products/pvc-membranes/membranes/dectec-reverse-r15000">
+                            Fully Walkable R15000
+                          </a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="">Adhesives & Sealants</a>
+                      <a href="/products/pvc-membranes/adhesives-sealants">
+                        Adhesives & Sealants
+                      </a>
                       <ul>
                         <li>
                           {" "}
-                          <a href="">PVC WBA 200</a>
+                          <a href="/products/pvc-membranes/adhesives-sealants/wba-200">
+                            PVC WBA 200
+                          </a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="">Accessories</a>
+                      <a href="/products/pvc-membranes/accessories">
+                        Accessories
+                      </a>
                       <ul>
                         <li>
                           {" "}
-                          <a href="">RoofingSeries Pipeboots </a>
+                          <a href="/products/pvc-membranes/accessories/dectec-r12000-pvc-boot-1-6-opening-conical">
+                            RoofingSeries Pipeboots{" "}
+                          </a>
                         </li>
                         <li>
                           {" "}
-                          <a href="">Termination Bar </a>
+                          <a href="/products/pvc-membranes/accessories/termination-bar">
+                            Termination Bar{" "}
+                          </a>
                         </li>
                         <li>
                           {" "}
-                          <a href="">Dec-Scupper </a>
+                          <a href="/products/pvc-membranes/accessories/descupper">
+                            Dec-Scupper{" "}
+                          </a>
                         </li>
                         <li>
                           {" "}
-                          <a href="">Dec-Corner – Outside </a>
+                          <a href="/products/pvc-membranes/accessories/deccorner-outside">
+                            Dec-Corner – Outside{" "}
+                          </a>
                         </li>
                         <li>
                           {" "}
-                          <a href="">Dec-Corner – Inside </a>
+                          <a href="/products/pvc-membranes/accessories/deccorner-inside">
+                            Dec-Corner – Inside{" "}
+                          </a>
                         </li>
                         <li>
                           {" "}
-                          <a href="">Heat Welder </a>
+                          <a href="/products/pvc-membranes/accessories/heat-welder">
+                            Heat Welder{" "}
+                          </a>
                         </li>
                       </ul>
                     </li>
@@ -68,23 +92,31 @@ const Sitemap = () => {
                 </ul>
                 <ul>
                   <li>
-                    <a href="">EPDM Membranes</a>
+                    <a href="/products/epdm-membranes">EPDM Membranes</a>
                   </li>
                   <ul>
                     <li>
-                      <a href="">RoofingSeries EPDM Membranes</a>
+                      <a href="/products/epdm-membranes/membranes">
+                        RoofingSeries EPDM Membranes
+                      </a>
                       <ul>
                         <li>
-                          <a href="">White / Black EPDM</a>
+                          <a href="/products/epdm-membranes/membranes/white-black">
+                            White / Black EPDM
+                          </a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="">ADHESIVES & SEALANTS</a>
+                      <a href="/products/epdm-membranes/adhesives-sealants">
+                        ADHESIVES & SEALANTS
+                      </a>
                       <ul>
                         <li>
                           {" "}
-                          <a href="">EPDM WBA</a>
+                          <a href="/products/epdm-membranes/adhesives-sealants/sbs-epdm-wba">
+                            EPDM WBA
+                          </a>
                         </li>
                       </ul>
                     </li>
@@ -94,51 +126,65 @@ const Sitemap = () => {
             </ul>
             <ul>
               <li>
-                <a href="">Installation</a>
+                <a href="/installation">Installation</a>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="">The RoofingSeries Advantage</a>
+                <a href="/support">The RoofingSeries Advantage</a>
                 <ul>
                   <li>
-                    <a href="">Front-End Design Support</a>
+                    <a href="/support/front-end-design-support">
+                      Front-End Design Support
+                    </a>
                   </li>
                   <li>
-                    <a href="">Custom Site Training</a>
+                    <a href="/support/custom-site-factory-training">
+                      Custom Site Training
+                    </a>
                   </li>
                   <li>
-                    <a href="">Site Support & Installation</a>
+                    <a href="/support/site-support-installation">
+                      Site Support & Installation
+                    </a>
                   </li>
                   <li>
-                    <a href="">Maintenance & Warranty</a>
+                    <a href="/support/maintenance-warranty">
+                      Maintenance & Warranty
+                    </a>
                   </li>
                 </ul>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="">Maintaining Your Vinyl Roofing System</a>
+                <a href="/maintaining-your-vinyl-roofing-system">
+                  Maintaining Your Vinyl Roofing System
+                </a>
               </li>
             </ul>{" "}
             <ul>
               <li>
-                <a href="">What Are PVC Roofing Membranes?</a>
+                <a href="/what-are-pvc-roofing-membranes">
+                  What Are PVC Roofing Membranes?
+                </a>
               </li>
             </ul>{" "}
             <ul>
               <li>
-                <a href="">The benefits of Vinyl Roofing</a>
+                <a href="/the-benefits-of-vinyl-roofing">
+                  The benefits of Vinyl Roofing
+                </a>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="">
+                <a href="/what-are-the-benefits-of-heat-welding-flat-roof-materials-together">
                   What Are The Benefits of Heat Welding Flat Roof Materials
                   Together
                 </a>
