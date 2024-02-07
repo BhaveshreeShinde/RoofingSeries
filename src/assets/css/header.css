@@ -7,7 +7,7 @@ nav {
   background-color: #000;
   position: fixed;
   text-align: center;
-  width: 100%;
+  width: 97%;
   z-index: 10;
 }
 
@@ -308,4 +308,15 @@ nav ul ul ul li {
     display: inherit;
     background-color: #eeeeee;
   }
+}
+.try {
+  background: #1c421d;
+  top: 0;
+  width: 1.8em;
+  font-size: 1.3em;
+  padding: 0.5em 0.2em;
+  text-align: center;
+  color: #fff;
+  content: counter(li-counter);
+  counter-increment: li-counter;
 }

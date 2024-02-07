@@ -1,0 +1,116 @@
+
+  .container {
+    margin: 0px 50px;
+  }
+  .slider-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .slick-dots{
+    margin-bottom: 450px;
+    bottom:0px!important;
+  }
+
+  .slick-dots li {
+    margin:0!important;
+  }
+
+  .slick-dots li button:before {
+    font-size: 14px!important;
+    color: #fff;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #fff;
+}
+
+.slick-prev {
+  left: 20px!important;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 20px!important;
+  z-index: 999;
+}
+  .inner-box {
+    background-color: blue;
+    text-align: center;
+    position: relative;
+  }
+
+  .inner-box-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centering using translate */
+  color: white; /* Set text color */
+  padding: 20px; /* Add padding for better visibility */
+  max-width: 80%; /* Limit maximum width for responsiveness */
+  font-size: 18px; /* Adjust font size as needed */
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.72);
+  z-index: 100;
+  }
+  .inner-box-heading-p{
+    font: 1.8em 'Roboto Slab', serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .inner-box-heading-em {
+    font-size: 1.6em!important;
+    font-family: 'Lato', 'OPen Sans', 'Trebuchet MS', Helvetica, arial, sans-serif;
+    display: block;
+    margin: 0;
+  }
+
+  .inner-box-heading-h1{
+    font: 4em 'Lato', 'OPen Sans', 'Trebuchet MS', Helvetica, arial, sans-serif;
+    color: #fff;
+    display: block;
+    font-weight: 900;
+    border-top: 2px solid#fff;
+    border-bottom: 2px solid #fff;
+    margin: 0;
+  }
+
+  .inner-box-text .inner-box-button{
+    background: #ffc600;
+    color: #fff;
+    margin: 1em auto;
+    display: inline-block;
+    font: 1em 'Roboto Slab', serif;
+    padding: 1em 2.8em;
+    text-shadow: none;
+    text-transform: uppercase;
+  }
+
+ 
+  .inner-box-text .inner-box-button:hover{
+    text-decoration: none;
+    background: #ffa800;
+  }
+
+  .slick-arrow{
+    color: red;
+  }
+  
+  .slick-slide img {
+    display: block;
+    width: 100%!important;
+}
+
+.mid-section-content{
+  font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #5a6771;
+  text-align: center;
+  margin:10px 70px;
+}
+
+.mid-section-content .mid-section-text{
+  margin:30px 0px
+}
+
