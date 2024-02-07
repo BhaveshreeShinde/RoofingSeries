@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.homebutton {
+  color: #fff !important;
+  border: 1px solid transparent !important;
+  font-size: 1.5rem !important;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.homebutton:hover {
+  cursor: pointer;
+  background-color: #ffc600;
+  color: #000 !important;
+}

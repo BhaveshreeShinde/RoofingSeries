@@ -1,22 +1,26 @@
 import { Box } from "@mui/material";
+import { Container } from "@mui/system";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <Box
-      sx={{
-        display: "flex",
-        justifyContent: "space-between",
-      }}>
-      <img
-        onClick={""}
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHITvnVYhV7SHrXSLIR93QZ7AEF2G4bHBo5hoxHXq0kA&s"
-        style={{ height: "100px" }}
-      />
-      <Box>
-        <span>text</span>
-        <h5>information</h5>
+    <Container maxWidth="xl">
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+        }}>
+        <img
+          onClick={""}
+          src="http://www.roofing-series.com/site/assets/files/1/roofingseries-1.png"
+          style={{ height: "50px" }}
+        />
+        <Box>
+          <Link to="/sitemap">Sitemap</Link>
+          <h5>information</h5>
+        </Box>
       </Box>
-    </Box>
+    </Container>
   );
 };
 
