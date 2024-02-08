@@ -23,6 +23,12 @@ import DeccornerOutside from "./pages/products/DeccornerOutside";
 import DeccornerInside from "./pages/products/DeccornerInside";
 import HeatWelder from "./pages/products/HeatWelder";
 import Sitemap from "./pages/Sitemap";
+import RoofingSystem from "./pages/RoofingSystem";
+import RoofingMembranes from "./pages/RoofingMembranes";
+import VinylRoofing from "./pages/VinylRoofing";
+import RoofMaterialsTogether from "./pages/RoofMaterialsTogether";
+import PvcMembranes from "./pages/products/PvcMembranes";
+import EpdmMembranes from "./pages/products/EpdmMembranes";
 
 function App() {
   return (
@@ -35,6 +41,22 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/products" element={<Products />} />
         <Route path="/sitemap" element={<Sitemap />} />
+        <Route
+          path="/maintaining-your-vinyl-roofing-system"
+          element={<RoofingSystem />}
+        />
+        <Route
+          path="/what-are-pvc-roofing-membranes"
+          element={<RoofingMembranes />}
+        />
+        <Route
+          path="/the-benefits-of-vinyl-roofing"
+          element={<VinylRoofing />}
+        />
+        <Route
+          path="/what-are-the-benefits-of-heat-welding-flat-roof-materials-together"
+          element={<RoofMaterialsTogether />}
+        />
         <Route
           path="/support/front-end-design-support"
           element={<FrontEndDesignSupport />}
@@ -55,6 +77,8 @@ function App() {
           path="/products/pvc-membranes/membranes/dectec-r12000"
           element={<DectecR12000 />}
         />
+        <Route path="/products/pvc-membranes" element={<PvcMembranes />} />
+        <Route path="/products/epdm-membranes" element={<EpdmMembranes />} />
         <Route
           path="/products/epdm-membranes/membranes/white-black"
           element={<WhiteBack />}

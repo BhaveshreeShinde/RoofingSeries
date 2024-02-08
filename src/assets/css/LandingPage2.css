@@ -12,6 +12,8 @@
 .image-container-small img {
   height: 400px;
   width: 100%;
+  background: #5a6771 no-repeat center center;
+  overflow: hidden;
 }
 
 .overlay {
@@ -28,12 +30,13 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-size: 50px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   width: 99%;
+  font: 2em "Roboto Slab", serif;
   text-align: center;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.72);
+  color: #fff;
 }
 
 .centered-text h2 {
@@ -46,10 +49,12 @@
 
 @media all and (max-width: 991px) {
   .centered-text {
-    font-size: 30px;
+    font: 1em "Roboto Slab", serif;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.72);
+    color: #fff;
   }
 
   .image-container-small img {
-    height: 200px;
+    height: 250px;
   }
 }

@@ -9,6 +9,7 @@ const Footer = () => {
         sx={{
           display: "flex",
           justifyContent: "space-between",
+          marginTop: "5%",
         }}>
         <img
           onClick={""}
