@@ -1,79 +1,12 @@
-import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import "../assets/css/Home.css";
-import slide1 from "../assets/images/main-header-3-1.jpg";
-import slide2 from "../assets/images/waterproof1-1.jpg";
-import slide3 from "../assets/images/training-1.jpg";
-import { Button, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import RoofSeriesAdvantage from "../components/RoofSeriesAdvantage";
+import SimpleSlider from "../components/Carousel";
+import "../assets/css/Home.css";
 
 const Home = () => {
-  const options = {
-    infinite: true,
-    arrows: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    speed: 300,
-    dots: true,
-  };
-
   return (
     <div className="container">
-      <Slider {...options}>
-        <div className="box">
-          <div className="inner-box">
-            <img src={slide1} alt="" />
-            <div className="inner-box-text">
-              <p className="inner-box-heading-p">PREMIUM</p>
-              <h1 className="inner-box-heading-h1">MODULAR ROOFING</h1>
-              <p className="inner-box-heading-em">
-                <em>OUR PEOPLE. OUR PRODUCTS. YOUR SOLUTION.</em>
-              </p>
-              <Button className="inner-box-button">
-                VIEW ROOFINGSERIES EPDM / PVC <br />
-                MEMBRANES & ACCESSORIES
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="box">
-          <div className="inner-box">
-            <img src={slide2} alt="" />
-            <div className="inner-box-text">
-              <p className="inner-box-heading-p" style={{ fontSize: "1.6em" }}>
-                THE MOST IMPORTANT PART OF YOUR BUILDING
-              </p>
-              <h1 className="inner-box-heading-h1">WATER-PROOFED</h1>
-              <p className="inner-box-heading-em">
-                <em>100% SEALED</em>
-              </p>
-              <Button className="inner-box-button">
-                THE ROOFINGSERIES <br />
-                ADVANTAGE
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="box">
-          <div className="inner-box">
-            <img src={slide3} alt="" />
-            <div className="inner-box-text">
-              <p className="inner-box-heading-p">DETAILED</p>
-              <h1 className="inner-box-heading-h1">INSTALLATION</h1>
-              <p className="inner-box-heading-em">
-                <em>INFORMATION & INSTRUCTIONS</em>
-              </p>
-              <Button className="inner-box-button">
-                INSTALLING THE <br />
-                ROOFSERIES MEMBRANE
-              </Button>
-            </div>
-          </div>
-        </div>
-      </Slider>
-
+      <SimpleSlider />
       <div className="mid-section-content">
         <Typography className="mid-section-text">
           Skyline Building Systems Inc. has been covering Canada and the United
