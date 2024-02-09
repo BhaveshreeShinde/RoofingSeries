@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import CloseIcon from "@mui/icons-material/Close";
-import "../assets/css/header.css";
 import { Box, Button } from "@mui/material";
 import { Container } from "@mui/system";
+import "../assets/css/header.css";
 
 const Header = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -36,18 +36,23 @@ const Header = () => {
 
   return (
     <Container maxWidth="xl">
-      <div style={{ marginBottom: "45px" }}>
+      <div className="header-section"
+      
+      // style={{ marginBottom: "45px" }}
+      >
         <Box
           sx={{
             display: "flex",
             justifyContent: "space-between",
+            backgroundColor:"#fff",
+            padding:"40px 0px"
           }}>
           <img
             onClick={navigateToHome}
             src="http://www.roofing-series.com/site/assets/files/1/roofingseries-1.png"
-            style={{ height: "50px" }}
+            style={{ height: "60px" }}
           />
-          <Button>hello</Button>
+          <Button className="header-button">CONTACT</Button>
         </Box>
 
         <nav>
@@ -131,7 +136,7 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <NavLink htmlFor="drop-5" className="toggle" to="/contact">
+              <NavLink htmlFor="drop-4" className="toggle" to="/contact">
                 CONTACT
               </NavLink>
               <NavLink className="main-menu" to="/contact">
